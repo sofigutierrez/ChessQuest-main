@@ -36,6 +36,8 @@ public class LineRendererScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject capsule = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+        
         Debug.Log("Hello World"); // test to see if the script is working
 
         // get the line renderer component attached to the object
